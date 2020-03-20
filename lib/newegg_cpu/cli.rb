@@ -22,9 +22,9 @@ class NeweggCpu::CLI
     if input > 0 && input <= NeweggCpu::Cpu.all.length# 1-36
      NeweggCpu::Cpu.all[input - 1].tap do |item|
       puts ""
-      puts "#{item.name}".gsub(":name=>","")
-      puts "#{item.price}".gsub(/["{:price=>\\nt–}"]/, "").strip
-      puts "#{item.url}".gsub(":url=>","").strip
+      puts "#{item.name}"
+      puts "#{item.price}".gsub(/[\\nt–]/, "").strip
+      puts "#{item.url}"
       select_product_continued
      end
     else 
@@ -32,6 +32,7 @@ class NeweggCpu::CLI
       puts "You must enter a valid number"
       select_product
     end 
+  end
 
     def select_product_continued
       puts ""
@@ -48,6 +49,7 @@ class NeweggCpu::CLI
         puts "Invalid response"
         select_product_continued
       end
+    end
 
   def menu
     puts "Enter search to find featured items."
