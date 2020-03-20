@@ -7,3 +7,4 @@ class NeweggCpu::Scraper
     processors_list = parsed.css('div.item-container')#36 items
 
 end
+end
