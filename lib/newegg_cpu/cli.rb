@@ -9,5 +9,9 @@ class NeweggCpu::CLI
     puts "\nWelcome"
     puts ""
   end
-  
+
+  def generate_list 
+    NeweggCpu::Scraper.get_cpu
+  end
+
 end
