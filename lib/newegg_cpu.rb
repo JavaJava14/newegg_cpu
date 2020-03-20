@@ -1,6 +1,7 @@
-require "new/version"
+require 'open-uri'
+require 'nokogiri'
+require 'httparty'
+require 'pry'
+require 'byebug'
 
-module New
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "newegg_cpu/version"
