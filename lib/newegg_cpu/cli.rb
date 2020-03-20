@@ -1,0 +1,6 @@
+class NeweggCpu::CLI
+
+
+
+
+end
