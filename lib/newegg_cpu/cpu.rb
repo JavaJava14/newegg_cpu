@@ -1,0 +1,7 @@
+class NeweggCpu::Cpu
+
+
+
+
+
+end
