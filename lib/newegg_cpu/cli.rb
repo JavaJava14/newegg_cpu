@@ -34,22 +34,22 @@ class NeweggCpu::CLI
     end 
   end
 
-    def select_product_continued
-      puts ""
-      puts "Enter list to view info on featured items or menu"
-      input = gets.chomp
-      case input.downcase
-        when "menu" 
-          puts ""
-          puts "Enter list to view info on featured items."
-          menu
+  def select_product_continued
+    puts ""
+    puts "Enter list to view info on featured items or menu"
+    input = gets.chomp
+    case input.downcase
+      when "menu" 
+        puts ""
+        puts "Enter list to view info on featured items."
+        menu
         when "list"
           select_product
         else
         puts "Invalid response"
         select_product_continued
-      end
     end
+  end
 
   def menu
     puts "Enter search to find featured items."
