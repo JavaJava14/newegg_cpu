@@ -33,4 +33,5 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the NflTickets project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/'remarkable-assembler-1904'/nfl_tickets/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the NeweggCpu project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/JavaJava14/newegg_cpu/blob/master/CODE_OF_CONDUCT.md).
+
